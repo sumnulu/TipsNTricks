@@ -62,3 +62,20 @@ ab -n10000 -c10 -k "http://localhost:8080/blahblah"
 ping -b 192.168.1.255
 ```
 
+
+Faydalı Araçlar
+===========
+
+* [Homebrew] - OSX için paket yöneticisi. 
+* nmap - `brew install nmap` - network scanner (matrix de trinity nüklear santrali hacklerken kullanıyordu 8) )
+* ab - `brew install ab` - web sitesi load generator
+* htop - `brew install htop` - renkli top
+* groovy - `brew install groovy` - Syntax'ı güzel java, shell script yazarkende işe yarıyor
+* [Synergy] - Tek klavye mouse'u bir den fazla makinaya paylaştırmak için windows osx linux driverları var
+* [Vertx.io] - JVM üzerinde çalışan hızlı, polygot (birden fazla programlama dili desteği olan), node.js den esinlenmiş, application patformu 
+* [SourceTree] - Atlassian'ın git client'ı. windows versiyonu biraz çirkin.
+
+[Homebrew]: http://brew.sh/
+[Synergy]: http://synergy-foss.org/
+[Vertx.io]: http://vertx.io/
+[SourceTree]: http://www.sourcetreeapp.com/
