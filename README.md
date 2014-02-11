@@ -1,6 +1,15 @@
 TipsNTricks
 ===========
 
+- [Ctrl-C ile projeyi reload yapmak](#ctrl-c-ile-projeyi-reload-yapmak)
+- [Terminali temizle](#terminali-temizle)
+- [Screen chuck noris attach mode](#screen-chuck-noris-attach-mode)
+- [Apache benchmark ile stress test](#apache-benchmark-ile-stress-test)
+- [Ping broadcast](#ping-broadcast)
+- [Faydalı Araçlar](#faydal%C4%B1-ara%C3%A7lar)
+
+===========
+
 ###Ctrl-C ile projeyi reload yapmak
 
 **nedir:** Bir programı ctrl-c ile restart etmek için.
