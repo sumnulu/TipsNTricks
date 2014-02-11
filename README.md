@@ -67,15 +67,17 @@ Faydalı Araçlar
 ===========
 
 * [Homebrew] - OSX için paket yöneticisi. 
-* nmap - `brew install nmap` - network scanner (matrix de trinity nüklear santrali hacklerken kullanıyordu 8) )
+* nmap - `brew install nmap` - network scanner (matrix de trinity nüklear santrali hacklerken kullanıyordu :) )
 * ab - `brew install ab` - web sitesi load generator
 * htop - `brew install htop` - renkli top
 * groovy - `brew install groovy` - Syntax'ı güzel java, shell script yazarkende işe yarıyor
 * [Synergy] - Tek klavye mouse'u bir den fazla makinaya paylaştırmak için windows osx linux driverları var
 * [Vertx.io] - JVM üzerinde çalışan hızlı, polygot (birden fazla programlama dili desteği olan), node.js den esinlenmiş, application patformu 
 * [SourceTree] - Atlassian'ın git client'ı. windows versiyonu biraz çirkin.
+* [Justgetflux] - Günün saatine göre monitörlerin renk sıçaklığını ayarlayan küçük bir app. OSX WINDOWS LINUX
 
 [Homebrew]: http://brew.sh/
 [Synergy]: http://synergy-foss.org/
 [Vertx.io]: http://vertx.io/
 [SourceTree]: http://www.sourcetreeapp.com/
+[Justgetflux]: http://justgetflux.com/
