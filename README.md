@@ -30,7 +30,7 @@ process.stdout.write("\033[2J\033[1;1H");
 
 **nedir:** Attach here and now. Whatever that means, just do it.
    
-**neden:** Genelde tek bir screen session ı açık oluyor ve 
+**neden:** ezbere bildiğim tek screen komutu. her gün kullanıyorum.
 
 ```bash
 screen -D -RR
