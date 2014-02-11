@@ -14,7 +14,9 @@ TipsNTricks
 
 **nedir:** Bir programı ctrl-c ile restart etmek için.
    
-**neden:** Normalde Intellij projeyi reload ediyordu; Şuanda kullandığım bilgisayarda herhangi bir IDE olmadığı için proje değiştiğinde her seferinde ctrl-c , ./gradlew runmod -i yazmak yerine böyle bir trick kullandım.
+**neden:** Normalde Intellij projeyi reload ediyordu; Şuanda kullandığım bilgisayarda herhangi bir IDE olmadığı için proje değiştiğinde her seferinde ctrl-c , ./gradlew runmod -i yazmak yerine böyle bir trick kullandım. 
+
+`Sleep 1` eklememin sebebi arka arkaya ctrl-c ctrl-c yapınca scripti terminate etmesi için.
 
 ```bash
 #!/bin/bash
