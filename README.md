@@ -54,9 +54,9 @@ ab -n10000 -c10 -k "http://localhost:8080/blahblah"
 
 ###Ping broadcast
 
-**nedir:** Localnetworkde ki bütün makinalara aynı anda ping atmak için. `192.168.1.255` broadcast adresi.
+**nedir:** Local networkde ki bütün makinalara aynı anda ping atmak için. `192.168.1.255` broadcast adresi.
 
-**neden:** Geçen gün time capsule ün ipsini unuttum, networkde ki online makinaların listesini çıkartıp teker teker denedim
+**neden:** Geçen gün time capsule ün ipsini unuttum, networkde ki online makinaların listesini çıkartıp teker teker denedim. bknz: nmap
 
 ```bash
 ping -b 192.168.1.255
