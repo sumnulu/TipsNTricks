@@ -99,9 +99,11 @@ Faydalı Araçlar
 * [Vertx.io] - JVM üzerinde çalışan hızlı, polygot (birden fazla programlama dili desteği olan), node.js den esinlenmiş, application patformu 
 * [SourceTree] - Atlassian'ın git client'ı. windows versiyonu biraz çirkin.
 * [Justgetflux] - Günün saatine göre monitörlerin renk sıçaklığını ayarlayan küçük bir app. OSX WINDOWS LINUX
+* [Prettydiff] - Online diff http://prettydiff.com/
 
 [Homebrew]: http://brew.sh/
 [Synergy]: http://synergy-foss.org/
 [Vertx.io]: http://vertx.io/
 [SourceTree]: http://www.sourcetreeapp.com/
 [Justgetflux]: http://justgetflux.com/
+[Prettydiff]: http://prettydiff.com/
