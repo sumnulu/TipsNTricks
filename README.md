@@ -6,6 +6,7 @@ TipsNTricks
 - [Screen chuck noris attach mode](#screen-chuck-noris-attach-mode)
 - [Apache benchmark ile stress test](#apache-benchmark-ile-stress-test)
 - [Ping broadcast](#ping-broadcast)
+- [SSH Socks Tunnel](#ssh-tunnel)
 - [Faydalı Araçlar](#faydal%C4%B1-ara%C3%A7lar)
 
 ===========
@@ -73,6 +74,17 @@ ab -n10000 -c10 -k "http://localhost:8080/blahblah"
 ping -b 192.168.1.255
 ```
 
+
+
+###SSH Tunnel
+
+**nedir:** Ssh ile bağlandığınız makinayi proxy olarak kullanmak için.
+
+**neden:** Mesela uzaktan ofisinizi networkündeki kaynakları kullanmak için veya yurtdışındaki bir makine ile 'sansürsüz' bir şekilde internete girebilmek için. `8080` veya seçeceğiniz başka bir port SOCKS proxy olarak işlem görecek. Browser ayarlarınızdan proxy olarak 127.0.0.1 ve port olarak `8080`'i seçmeniz yeterli
+
+```bash
+ssh -D 8080 ilgaz@uzakbilgisayar.com
+```
 
 Faydalı Araçlar
 ===========
