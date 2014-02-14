@@ -17,12 +17,13 @@ TipsNTricks
    
 **neden:** Normalde Intellij projeyi reload ediyordu; Şuanda kullandığım bilgisayarda herhangi bir IDE olmadığı için proje değiştiğinde her seferinde ctrl-c , ./gradlew runmod -i yazmak yerine böyle bir trick kullandım. 
 
-`Sleep 1` eklememin sebebi arka arkaya ctrl-c ctrl-c yapınca scripti terminate etmesi için.
+`Sleep 1` eklememin sebebi arka arkaya ctrl-c ctrl-c yapınca scripti terminate etmesi için. p.s. mavent + ant yerine her zaman gradle kullanabilirsiniz.
 
 ```bash
 #!/bin/bash
 while :
 do
+   ./gradlew assemble
    ./gradlew runMod -i  # çalıştırmak istediğimiz komut
    sleep 1
 done
