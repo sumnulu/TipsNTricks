@@ -92,8 +92,6 @@ ssh -D 8080 ilgaz@uzakbilgisayar.com
 ###Chrome da CORS u kapamak icin
 **nedir:** Browser'ın CORS güvenlik önemleri kapamasına yarıyor
 
-**nedir:** Ssh ile bağlandığınız makinayi proxy olarak kullanmak için.
-
 **neden:** CORS XSS onelemek için kullanılan bir stanadart. Normalde server headerların arasına: `Access-Control-Allow-Origin: http://www.fikrimuhal.com` veya  ` Access-Control-Allow-Origin: *` koyarak izinleri ayarlarlıyor. Bazı durumlarda (development da) CORS'u kapamak işleri çok kolaylaştırıyor
 
 http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
