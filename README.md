@@ -7,6 +7,7 @@ TipsNTricks
 - [Apache benchmark ile stress test](#apache-benchmark-ile-stress-test)
 - [Ping broadcast](#ping-broadcast)
 - [SSH Socks Tunnel](#ssh-tunnel)
+- [Chrome da CORS'u kapamak için](Chrome-da-CORS-u-kapamak-icin)
 - [Faydalı Araçlar](#faydal%C4%B1-ara%C3%A7lar)
 
 ===========
@@ -86,6 +87,33 @@ ping -b 192.168.1.255
 ```bash
 ssh -D 8080 ilgaz@uzakbilgisayar.com
 ```
+
+
+###Chrome da CORS u kapamak icin
+**nedir:** Browser'ın CORS güvenlik önemleri kapamasına yarıyor
+
+**nedir:** Ssh ile bağlandığınız makinayi proxy olarak kullanmak için.
+
+**neden:** CORS XSS onelemek için kullanılan bir stanadart. Normalde server headerların arasına: `Access-Control-Allow-Origin: http://www.fikrimuhal.com` veya  ` Access-Control-Allow-Origin: *` koyarak izinleri ayarlarlıyor. Bazı durumlarda (development da) CORS'u kapamak işleri çok kolaylaştırıyor
+
+http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+
+bu Win için:
+```
+chrome.exe --disable-web-security
+```
+
+bu Linux için:
+```
+google-chrome --disable-web-security
+```
+bu OSX için:
+```
+open -a Google\ Chrome --args --disable-web-security
+```
+buda Cüneyt Arkın için (chrome eklentisi):
+
+https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
 
 Faydalı Araçlar
 ===========
